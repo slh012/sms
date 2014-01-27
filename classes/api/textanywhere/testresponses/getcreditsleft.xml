@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCreditLeftResponse> 
+    <Transaction> 
+        <IP>127.0.0.1</IP> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <CreditLeft>175.60</CreditLeft> 
+</GetCreditLeftResponse>

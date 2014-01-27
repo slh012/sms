@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSMSInboundResponse> 
+    <Transaction> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <SMSInbounds> 
+        <InboundSMS> 
+            <ID>4</ID> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-07-08</Date> 
+            <Time>10:38:15</Time> 
+            <Body>hello  "",""  world</Body> 
+            <Network>Orange</Network> 
+        </InboundSMS> 
+        <InboundSMS> 
+            <ID>5</ID> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-07-08</Date> 
+            <Time>10:38:55</Time> 
+            <Body>hello world</Body> 
+            <Network>Orange</Network> 
+        </InboundSMS> 
+    </SMSInbounds> 
+</GetSMSInboundResponse>

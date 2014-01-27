@@ -1,0 +1,34 @@
+<?php
+
+class config
+{
+	static public $config=array();
+	
+	
+	private function __construct()
+	{
+		
+	}
+	static public function setup(){
+		config::set('ta_externalLogin', '');
+		config::set('ta_password', '');
+		config::set('ta_replyemail', '');
+		error_reporting(E_ALL ^ E_NOTICE);
+		config::set('mysql_conn','localhost:USER:PASSWORD:SCHEMA');
+	}
+	static public function set($name,$value)
+	{
+		self::$config[$name]=$value;
+	}
+	
+	static public function get($name)
+	{
+		return self::$config[$name];
+	}
+	
+	static public function dump()
+	{
+		print_r(self::$config);
+	}
+}
+?>

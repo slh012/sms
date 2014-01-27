@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetPSMSInboundResponse> 
+    <Transaction> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <PSMSInbounds> 
+        <InboundPSMS> 
+            <ID>1</ID> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-08-17</Date> 
+            <Time>10:11:12</Time> 
+            <Body>hello  world  </Body> 
+            <Network>Orange</Network> 
+            <RBID>843683482</RBID>
+        </InboundPSMS> 
+        <InboundPSMS> 
+            <ID>2</ID> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-08-17</Date> 
+            <Time>14:59:25</Time> 
+            <Body>helloworld</Body> 
+            <Network>Orange</Network> 
+            <RBID>843683483</RBID>
+        </InboundPSMS> 
+        <InboundPSMS> 
+            <ID>3</ID> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-08-17</Date> 
+            <Time>17:28:39</Time> 
+            <Body>hello,world</Body> 
+            <Network>Orange</Network> 
+            <RBID>843683484</RBID>
+        </InboundPSMS> 
+    </PSMSInbounds> 
+</GetPSMSInboundResponse>

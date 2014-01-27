@@ -1,0 +1,13 @@
+<SendSMSResponse> 
+    <Transaction> 
+        <IP>123.123.123.123</IP> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <Destinations> 
+        <Destination> 
+            <Number>+44</Number> 
+            <Code>1</Code> 
+        </Destination> 
+    </Destinations> 
+</SendSMSResponse>

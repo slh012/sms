@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestServiceResponse> 
+    <Transaction> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <Company>Company  Ltd  </Company> 
+    <Status>Service  Running</Status> 
+</TestServiceResponse>

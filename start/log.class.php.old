@@ -1,0 +1,68 @@
+<?php
+	class log extends log  {
+		
+		
+		
+		public function __construct(){
+			parent::__construct();
+			$this->path = $this->root.'/projectlogs/tag/';
+		}
+		
+		
+		
+		private function cleanData($data){
+			$data = htmlspecialchars_decode($data);
+			return $data;
+		}
+		
+		
+		
+		public function request($call, $data){
+			
+			$data = $this->captureString($data);						
+			
+			$filename = time().'-'.$call.'-request.txt';
+			
+			$path = $this->path.$filename;
+			
+			parent::fopen($path, 'a');
+			
+			parent::fwrite($data);
+			
+		}
+		
+		private function captureString($array){
+			
+			ob_start();
+			
+			foreach($array as $key=>$value){
+				if(is_object($value))continue;
+				echo $key.' = '.$value.",";
+			}
+			
+			
+			$string = ob_get_contents();
+			
+			
+			ob_end_clean();
+			
+			return $string;
+			
+		}
+		
+		
+		public function response($call, $data){
+			$data = $this->cleanData($data);
+				
+			$filename = time().'-'.$call.'-response.xml';
+				
+			$path = $this->path.$filename;
+				
+			parent::fopen($path, 'a');
+				
+			parent::fwrite($data);
+				
+		}
+		
+	}
+?>

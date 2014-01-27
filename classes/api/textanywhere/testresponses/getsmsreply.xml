@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSMSReplyResponse> 
+    <Transaction> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <Replies> 
+        <Reply> 
+            <ID>1</ID> 
+            <ClientMessageReference></ClientMessageReference> 
+            <PartTotal>1</PartTotal> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Date>2009-06-13</Date> 
+            <Time>17:05:41</Time> 
+            <Body>hello world</Body> 
+        </Reply> 
+        <Reply> 
+            <ID>2</ID> 
+            <ClientMessageReference></ClientMessageReference> 
+            <PartTotal>1</PartTotal> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Date>2009-06-13</Date> 
+            <Time>17:06:37</Time> 
+            <Body>Hello world</Body> 
+        </Reply> 
+    </Replies> 
+</GetSMSReplyResponse>

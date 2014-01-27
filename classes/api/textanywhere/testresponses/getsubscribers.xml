@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetSubscribersResponse> 
+    <Transaction> 
+        <Code>1</Code> 
+        <Description>Transaction  OK</Description> 
+    </Transaction> 
+    <Subscribers> 
+        <Subscriber> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-06-03</Date> 
+            <Time>13:15:17</Time> 
+            <Body>hello  world  </Body> 
+            <Network>Orange</Network> 
+            <RBID>843822651</RBID> 
+        </Subscriber> 
+        <Subscriber> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-06-03</Date> 
+            <Time>15:17:13</Time> 
+            <Body>helloworld</Body> 
+            <Network>Orange</Network> 
+            <RBID>843822652</RBID> 
+        </Subscriber> 
+        <Subscriber> 
+            <Originator>+44</Originator> 
+            <Destination>+44</Destination> 
+            <Keyword  /> 
+            <Date>2009-06-03</Date> 
+            <Time>17:13:15</Time> 
+            <Body>hello,world</Body> 
+            <Network>Orange</Network> 
+            <RBID>843822653</RBID> 
+        </Subscriber> 
+    </Subscribers> 
+</GetSubscribersResponse>
